@@ -31,6 +31,6 @@ app.get('/result', (req, res) => {
     res.sendFile(__dirname + '/result/result2.html');
 });
 
-app.listen(3000, 'localhost', () => {
+app.listen(3000, '0.0.0.0', () => {
     console.log('Server started on port 3000');
 });
